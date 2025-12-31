@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+
+</head>
+<body>
+    <div class="weather-app">
+        <header>
+            <form action="submitform" id="search-form">
+                <input type="text" placeholder="Enter a City" id="fortunate" required>
+                <input type="submit" id="my-fate" value="search">
+
+            </form>
+        </header>
+        <main>
+            <div class="current-weather">
+<div>
+    <h1 id="enter-city" class="enter-city">Adwa</h1>
+    <p id="explaination" class="explaination">
+        <span id="current-date"></span>,moderate rain <br> Humuditiy:<strong>15%</strong>, windspeed: <strong>20m/s</strong> 
+    </p>
+</div>
+<div class="rich-woman">
+    <span class="temperature-icon">☀</span>
+        <span class="temperature-value" id="temperature-value">20&deg;C</span>
+</div>
+            </div>
+        </main>
+        <footer>
+            <p>This project codded by <a href="https://www.linkedin.com/in/samrawit-yisak-799028374">samrawit</a> is on <a href="#">Github </a>and on the <a href="#">Netilify</a>.</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
