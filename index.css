@@ -1,0 +1,76 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+.weather-app {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+#fortunate {
+    margin: 35px;
+    padding: 17px;
+    width: 60%;
+    font-size: 15px;
+    color: black;
+    background-color: azure;
+    border-radius: 15px;
+}
+#my-fate {
+    margin: 10px;
+    padding: 14px;
+    width: 14%;
+    border-radius: 5px;
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+
+}
+#my-fate:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+main {
+    padding: 10px 0;
+}
+.current-weather {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 2%;
+}
+.enter-city {
+    font-size: 60px;
+    margin: 0;
+    position: relative;
+    left: 10%;
+    top: 6%;
+}
+.rich-woman {
+    font-size: 50px;
+    margin-top: 50px;
+    position: relative;
+    right: 5%;
+}
+.explaination {
+    color: dimgrey;
+    font-size: 20px;
+}
+.explaination strong {
+    color: blueviolet;
+}
+.temperature-icon {
+    color: rgb(245, 245, 1);
+}
+footer p {
+    color: dimgrey;
+    margin-right: 10px;
+    position: relative;
+    left: 4%;
+}
